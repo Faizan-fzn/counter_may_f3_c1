@@ -50,6 +50,10 @@ hr{
 #button_inc:hover {
     background-color: blue;
     box-shadow: 2px 5px 20px rgb(0, 72, 255); /* Adds shadow */
+}
+#button_clr:hover {
+    background-color: red;
+    box-shadow: 2px 5px 20px rgb(255, 1, 1); /* Adds shadow */
 
 }
 @media screen and (max-width:500px) {
@@ -70,7 +74,7 @@ hr{
         font-size: 1.5rem;
     }
     hr{
-        width: 250px;
+        width: 260px;
     }
 }
 
