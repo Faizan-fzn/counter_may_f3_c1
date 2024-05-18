@@ -55,6 +55,7 @@ hr{
 @media screen and (max-width:500px) {
     .btn{
         flex-direction: column;
+        gap: 20px;
     }
     #button_dec{
         width: 300px;
