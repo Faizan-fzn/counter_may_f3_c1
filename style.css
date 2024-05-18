@@ -52,6 +52,20 @@ hr{
     box-shadow: 2px 5px 20px rgb(0, 72, 255); /* Adds shadow */
 
 }
+@media screen and (max-width:500px) {
+    .btn{
+        flex-direction: column;
+    }
+    #button_dec{
+        width: 300px;
+    }
+    #button_inc{
+        width: 300px;
+    }
+    #button_clr{
+        width: 300px;
+    }
+}
 #button_clr:hover {
     background-color: red;
     box-shadow: 2px 5px 20px rgb(255, 1, 1); /* Adds shadow */
